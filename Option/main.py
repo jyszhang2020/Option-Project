@@ -12,11 +12,11 @@ from data_types import (
 from pprint import pprint
 
 if __name__ == '__main__':
-    symbol = 'AMZN'
-    evaluation_date = '2021-06-28'
+    symbol = 'IBM'
+    evaluation_date = '2021-06-30'
     expiration_date = '2022-01-21'
     close_price = get_close_price(symbol)
-    strike_price = 3600
+    strike_price = 150
     historical_volatility = get_historical_volatility(symbol)
     # historical_volatility = 0.2735
     option_type = OptionType.CALL
