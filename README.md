@@ -13,6 +13,8 @@ historical_volatility.py calculates the historical volatility of the stock and t
 
 data_types.py contains all the calcuation for greeks and volatility.
 
+#
+
 ### Black Scholes Model
 
 The Black-Scholes formula, for call:
