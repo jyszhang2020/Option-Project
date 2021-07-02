@@ -1,5 +1,18 @@
 # Option-Project
 
+### Tiger Brokers
+`cd Option`
+Option dirtory will run the result that close to the Tiger.
+
+#### How to Run
+`python3 main.py`
+main.py will give all the greeks, volatility, and option price. After changing stock symbol, evaluation date, expiration date, strike price, and option type new result will be returned.
+
+#### Code Description
+historical_volatility.py calculates the historical volatility of the stock and the close price of the stock.
+
+data_types.py contains all the calcuation for greeks and volatility.
+
 ### Black Scholes Model
 
 The Black-Scholes formula, for call:
